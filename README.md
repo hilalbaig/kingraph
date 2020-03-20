@@ -23,10 +23,6 @@ yarn global add hilalbaig/kingraph  # via yarnpkg.com
 
 This adds the `kingraph` command to your shell. With `kingraph --help` you can get basic information on how to execute the tool.
 
-```
-kingraph --help
-kingraph family.yml > family.svg
-```
 
 ## Getting started
 
@@ -47,9 +43,9 @@ people:
 ```sh
 kingraph family.yaml -F dot | dot -Tpdf -o family.pdf
 open family.pdf
-```
-
-```
+ 
+ # or
+ 
 kingraph --help
 kingraph family.yml > family.svg
 ```
