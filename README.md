@@ -17,6 +17,8 @@ A family tree plotter with a very simple syntax. It probably doesn't cover every
 
 ```sh
 npm install -g alexanderwillner/kingraph
+# or
+yarn global add rstacruz/kingraph  # via yarnpkg.com
 ```
 
 This adds the `kingraph` command to your shell. With `kingraph --help` you can get basic information on how to execute the tool.
