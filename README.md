@@ -49,6 +49,11 @@ kingraph family.yaml -F dot | dot -Tpdf -o family.pdf
 open family.pdf
 ```
 
+```
+kingraph --help
+kingraph family.yml > family.svg
+```
+
 ## Further Examples
 
 Spoiler alerts, view at your own risk :)
