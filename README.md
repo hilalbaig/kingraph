@@ -23,6 +23,11 @@ yarn global add hilalbaig/kingraph  # via yarnpkg.com
 
 This adds the `kingraph` command to your shell. With `kingraph --help` you can get basic information on how to execute the tool.
 
+```
+kingraph --help
+kingraph family.yml > family.svg
+```
+
 ## Getting started
 
 A family tree is a [YAML](http://yaml.org/) file. To get started, store the following text in a file called `family.yaml`:
